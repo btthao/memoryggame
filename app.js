@@ -130,6 +130,8 @@ reset.onclick = () => {
     grid.innerHTML = '';
     result.innerHTML = '0';
     points = 0;
+    playerChoice = [];
+    choiceId = [];
     gameBoard();
 
 }
